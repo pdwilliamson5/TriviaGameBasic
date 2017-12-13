@@ -1,61 +1,108 @@
-
+p{
+	margin-left: 75px;
+}
 body{
-	background-color:#e0d4b1;
+	background-color:black;
+	color:#edeada;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
 	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
+	font-weight: 400;
+	line-height: 20px;
+
 }
 
 .container{
-	background-image: url("assets/images/backdrop.jpg");
-	background-color: #ffffcc;
+	color:#edeada;
+	text-align:left;
+	margin-top: 0;
+	background-image: url("assets/images/poster.jpg");
+	background-color: black;
 	width:600px;
 	height: 800px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
+
 }
 
-#timer{
-	background-color: #ffffcc;
+#white{
 	width:600px;
 	height: 100px;
-	margin-left: auto;
+	
 	margin-right: auto;
-	margin-top: 5px;
+	margin-left: auto;
+	vertical-align: top;
+	
+	
+	
 }
 
-#clock{
-	background-color:white;
+#oval{
+	background-color:#edeada;
+	text-align: center;
+	padding-top: 10px;
 	border:solid black 2px;
-	float:right; 
-	margin-right: 45px;
-	
+	color:black;
+	margin-left: 225px;
+	position: absolute;
 	border-radius: 15px;
-	height: 75px;
-	width:200px;
-	padding:2px;
+	height: 30px;
+	width:70px;
+	padding:7px;
 
 }
 
 #logo{
 
-	margin-left: auto;
+	background-color: black;
+	width:400px;
+	height: 100px;
+	margin-left: 75px;
 	margin-right: auto;
-	padding:10px;
-	background-color: #e0d4b1;
 }
 
-img.redwire{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
+
+
 .label{
-	display: block;
+	margin-left: 75px;
+	color:#edeada;
 	margin-right: 50px;
 }
+
+#radio{
+	margin-left: 75px;
 }
+
+#boom{
+
+}
+
+#wire{
+	background-color: red;
+	width: 200px;
+	height: 60px;
+	margin-left: 120px;
+	border-radius: 8px;
+	border: solid white;
+	display: inline-block;
+	color:white;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	padding:10px;
+}
+#wire {
+    background-color: red; 
+    color: white; 
+    border: 2px solid white;
+}
+
+#wire:hover {
+    background-color: blue;
+    color: white;
+}
+

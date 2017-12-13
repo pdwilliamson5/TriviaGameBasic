@@ -6,20 +6,33 @@
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<script src="jquery-3.2.1.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script type="text/javascript" src="game.js"></script>
+		<script type="text/javascript" src="app.js"></script>
 	</head>
 <body>
-	<div id="logo">
-		<img src="assets/images/logo.jpg" alt="red wire blue wire logo" class="redwire">
-	<div id="timer"><p> Hurry and answer the quiz before we die!</p>
-		<p id="clock"></p>
-	</div>
-		
-	</div>
+	
+	
+
+
 		<div class="container">
+
+			
+			<div id="logo">
+				<img src="assets/images/blue_red2.png" alt="red wire blue wire logo" class="redwire">
+			</div>
+
+
+		
+			<div id="white"><p>Hurry and answer the quiz before we die!</p>
+				<div id="oval"><span id="timer"></span>
+				</div>
+			</div>
+		
+		
 			<form id = "quiz" name="quiz" method="post">
 
-			<p class="label">In what Die Hard movie did the villian Simon plant a bomb in a NYC school as decoy to steal $140 billion in gold bullion in dump trucks?</p>
+			<p class="label">In what Die Hard movie did the villian Simon plant a bomb<br>
+			 in a NYC school as decoy to steal $140 billion<br> in gold bullion in dump trucks?</p>
+			<p>
 			<input type="radio"
 				name="group1"
 				value= "wrong">Die Hard 1
@@ -32,13 +45,16 @@
 				name="group1"
 				value="wrong">Die Hard 3
 				<br><br>
+			</p>
 
-			<p class="label">In "Speed" what mph did the bus have to be over or it would explode?</p>
+			<p class="label">In "Speed" what mph did the bus have to be over or it would explode?</p><p>
 				<input type="radio"
+				class="radio"
 				name="group2"
 				value= "right">50
 				<br>
 				<input type="radio"
+				class="radio"
 				name="group2"
 				value="wrong"/>40
 				<br>
@@ -46,9 +62,11 @@
 				name="group2"
 				value="wrong"/>60
 				<br><br>
-
+		</p>
 			<p class="label">Where did Murtaugh find the note "Boom you're dead!" written?</p>
+			<p>
 			<input type="radio"
+				class="radio"
 				name="group3"
 				value= "wrong"/>On a cereal box
 				<br>
@@ -61,9 +79,10 @@
 				name="group3"
 				value="right"/>On a roll of toilet paper
 				<br><br>
-				<img id="boom" src="assets/images/boom.jpg" style="display: none;" width="400" height="400"/>
-
+			</p>
+				<p>
 			<input type="button" id="wire" value="CUT THE WIRE!!!" onclick="check();">
+				</p>
 			</form>
 		</div>
 
